@@ -1,5 +1,5 @@
 # Discord-Coddier-Bots
-
+### NOT: Yarım bırakılmış bir bottur bilginiz olsun.
 ###### Tamamen ingilizcedir dilediğiniz gibi değiştirebilirsiniz.
 
 ```
