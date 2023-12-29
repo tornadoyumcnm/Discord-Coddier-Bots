@@ -1,0 +1,19 @@
+{
+  "name": "coddier-bot",
+  "version": "1.0.0",
+  "description": "Coddier Bot's",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "src/index.js"
+  },
+  "author": "goelisma",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^8.0.3"
+  }
+}
