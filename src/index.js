@@ -95,19 +95,3 @@ client.login(process.env.TOKEN).then(() => {
 }).catch((err) => {
     console.log(`[ERROR]  ${process.env.NAME} I think the entrance to the discord universe has been lost: ${err}`);
 });
-
-const { createCanvas, loadImage, registerFont } = require('canvas');
-const Canvas = require("canvas")
-const image = require("./materials/image/image.json")
-const fontPath = path.join(__dirname, '../src/font/MarlinGeo-Black.otf');
-registerFont(fontPath, { family: 'Marlin Geo Black' });
-const moment = require('moment');
-require("moment-duration-format");
-
-client.on('messageCreate', async (message) => {
-if (message.author.bot) return;
-
-if (message.content === '!userinfo') {
-}
-
-});
