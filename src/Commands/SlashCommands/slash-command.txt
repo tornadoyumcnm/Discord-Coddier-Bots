@@ -1,0 +1,24 @@
+const Discord = require('discord.js')
+module.exports.execute = async(client, interaction) => {
+
+const embed = new Discord.EmbedBuilder()
+.setColor(process.env.MAINCOLOR)
+.setAuthor({ name: `${process.env.NAME} x`, iconURL: client.user.avatarURL() })
+.setDescription(`x`)
+.setFooter({ text: `©️ ${interaction.client.user.username} ${new Date().getFullYear()}` })
+.setTimestamp()
+await interaction.reply({ embeds: [embed], ephemeral: false })
+
+},
+
+module.exports.config = {
+    name: "",
+    description: "",
+    options: []
+}
+
+/*
+const image = require("../../../materials/image/image.json")
+let link = image.
+const attachment = new Discord.AttachmentBuilder(link);
+*/
