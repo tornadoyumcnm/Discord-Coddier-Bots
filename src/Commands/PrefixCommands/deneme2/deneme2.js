@@ -1,0 +1,1 @@
+const xd = `şuanlık bomboş`
